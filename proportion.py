@@ -16,7 +16,7 @@ wrong_sound = pygame.mixer.Sound(os.path.join('incorrect.wav'))
 
 # Function to draw text
 def draw_text(surf, text, size, x, y, color):
-    font = pygame.font.Font(FONT_NAME, size)
+    font = pygame.font.Font("zenhand3.ttf", size)
     text_surface = font.render(text, True, color)
     text_rect = text_surface.get_rect()
     text_rect.midtop = (x, y)
